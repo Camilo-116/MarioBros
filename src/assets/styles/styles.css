@@ -1,0 +1,44 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+html body {
+  margin: 5vh 5vw;
+  padding: 0;
+}
+html body .mario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+html body .mario .fila {
+  height: calc(90vh / 16);
+  display: flex;
+  flex-direction: row;
+}
+html body .mario .fila .celda {
+  height: 100%;
+  width: calc(90vh / 16);
+  border: 1px solid #fff;
+}
+html body .mario .fila .rojo {
+  background-color: #fe0000;
+}
+html body .mario .fila .azul {
+  background-color: #0000fe;
+}
+html body .mario .fila .negro {
+  background-color: #040000;
+}
+html body .mario .fila .amarillo {
+  background-color: #ff0;
+}
+html body .mario .fila .cafe {
+  background-color: #502d17;
+}
+html body .mario .fila .cafe-oscuro {
+  background-color: #2a0f04;
+}
+html body .mario .fila .piel {
+  background-color: #feb380;
+}
